@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>carrousel</title>
+  </head>
+  <body>
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a>
+          <img src="../assets/CateringLogo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./paginauno.html">Nuestros servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginados.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginatres.html">Barras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginatres.html">Finger Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginatres.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-nav" href="./contacto.html">Contactar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--header-->
+
+    <!--main-->
+    <main id="main">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../assets/barranueva.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="color-texto">Barra y Cocteleria.</h5>
+              <p id="color-parrafo">
+                Cocteles de todo tipo, bebidas alcoholicas y no alcoholicas
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/fotonuevados.jpg"
+              class="d-block w-100"
+              alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="color-texto">Finger Food</h5>
+              <p d="color-parrafo">
+                Pasa bocas de todo tipo, salados y dulces tamaño bocado. Especiales para ofrecer variedad de exquisiteses.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/eventosnew.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="color-texto">Eventos</h5>
+              <p id="color-parrafo">
+                servicios Empresariales y para todo tipo de ocasión.
+              </p>
+            </div>
+          </div>
+      </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <!--main-->
+
+    <!--footer-->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="footer-icons">
+        <p class="texto-footer">Derechos de autor &copy; 2023</p>
+        <div>
+          <a href="https://api.whatsapp.com/send?phone=+54 9 11 5134-6632&text=Hola,%20me%20gustaría%20contactar%20contigo" target="_blank">
+            <img  src="../assets/icons8-whatsapp-48.png" alt="WhatsApp">
+          </a>
+          <a  href="https://www.instagram.com/genesiscocinaok/" target="_blank">
+            <img  src="../assets/icons8-instagram-viejo-50.png" alt="Instagram">
+          </a>
+
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

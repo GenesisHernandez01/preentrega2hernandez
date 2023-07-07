@@ -1,0 +1,192 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+.text-nav {
+  color:#97c93e !important;
+}
+
+#header img {
+  height: 80px;
+  width: 140px;
+}
+h1{
+  font-family: 'Fasthand', cursive;
+  font-size: xx-large;
+  padding-left: 190px;
+  padding-top: 0px;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 52vh;
+  width: 100%;
+} 
+.paginados {
+  width: 800px;
+  height: 450px;
+}
+.estilo-text{
+  font-family: 'Fasthand', cursive;
+  font-size: large;
+}
+.estilo-texto {
+  font-family: 'Fasthand', cursive;
+  font-size: xx-large;
+}
+
+footer {
+  background-color: #795555;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  color: white;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-right: 40px;
+}
+
+.texto-footer {
+  display: flex;
+  text-align: center;
+}
+
+
+/* contacto */
+
+.propuesta {
+  color: rgb(14, 13, 13);
+  padding-left: 20px;
+  padding-top: 50px;
+}
+#texto-resaltado {
+  background-color: rgb(238, 184, 104);
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+  
+  }
+.formulario {
+      background: url(../assets/black.jpeg);
+      font-size: x-large;
+      font-family:'Courier New', Courier, monospace;
+      color: aliceblue;
+      display: inline-block;
+      text-align: left;
+      height:600%;
+      border-style: inset;
+      border-width: thick;
+      border-color: rgb(224, 150, 65);
+      padding: 20px;
+      margin: 5% 10% 30% 30%;
+      
+}
+.fondo-formu {
+background-image: url(../assets/home-photo1.jpg);
+}
+
+.box-form {
+  width: 40%;
+
+}
+
+.boton {
+  border-radius: 10%;
+  background-color: rgb(250, 195, 132);
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  display: inline-block;
+  align-content: center;
+  
+}
+.color {
+  background-image: url(../assets/fotouna.jpeg);
+  text-align: center;
+  font-size: x-large;
+  color: black;
+  background-color: beige;
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+
+#main .carousel-inner img {
+max-height: 70vh;
+object-fit: cover;
+
+}
+#carrousel  {
+position: relative;
+}
+#carrousel .overlay {
+position: absolute;
+top: 0;
+bottom:0; 
+left: 0;
+right: 0;
+background-color:rgba(0, 0, 0, 0.5);
+color: white;
+
+}
+.carousel-indicators {
+width: 100%;
+}
+#color-texto {
+  color: #0a0a09;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+}
+#color-parrafo {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  background-color: rgb(44, 44, 43);
+}
+
+
+/* contacto */
+
+
+@media screen and (max-width:768px) {
+
+  .box-form {
+    width: 110%;
+}
+  .fondo-formu  {
+      display: none;
+  }
+  .container {
+      max-width: 700px;
+  }
+  .input {
+    width: 40%;
+  }
+  textarea {
+    width: 40%;
+  }
+}
+@media (max-width: 460px) {
+  .catering-food{
+    width: 100%;
+  }
+  .box-estilo-texto{
+    margin: 2% 2% 9% 4%;
+  }
+}
+
